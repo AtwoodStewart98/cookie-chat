@@ -12,8 +12,12 @@
         <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
       </form>
       <div class="messages-container">
-        <p ng-repeat="message in messages ">
-          {{message.message}} </p>
+        <p class="head-msgs">
+          Messages from DevMountaineers
+        </p>
+        <p class="small-container" ng-repeat="message in messages ">
+          {{message.message}} <br>
+          <mydate class="blu-team">{{message.createdAt | date:'short'}}</mydate></p>
       </div>
     </div>
 

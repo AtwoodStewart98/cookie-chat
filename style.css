@@ -7,12 +7,12 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
+  background: #fff;
 }
 
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
   padding: 5px;
   border-radius: 10px;
 }
@@ -26,8 +26,44 @@ body {
   width: 40%;
 }
 
-p{
+p {
   text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+h1 {
+  color: #a3a3a3;
+  font-weight: bold;
+}
+.head-msgs {
+  background-color: #f0f0f0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.blu-team {
+  border-radius: 10px;
+  background: #31a3da;
+  color: #fff;
+  padding: 3px;
+}
+
+.messages-container {
+  border-style: solid;
+  border-width: 3px;
+  margin: 10px 15% 10px 15%;
+  border-color: #a3a3a3;
+}
+.small-container {
+  border-style: solid;
+  border-width: 3px;
+  margin: 0px -3px -3px;
+  border-color: #a3a3a3;
+  padding-bottom: 5px;
+}
+
+.form-control {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
